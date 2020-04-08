@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+table {
+    padding: 0px;
+    margin: 0px;  
+    border-collapse: collapse;
+}
+
+th {
+    padding: 20px;
+}
+
+.greenline {
+    width: 100%;
+    position: absolute;
+} 
+
+.mainphoto {
+    width: 100%;
+}
+
+.icons {
+   text-align: center;
+   width: 34%;
+   padding: 20px;   
+}
+
+.social, .faces {
+    text-align: center;
+}
+
+.text1, .text2 {
+    padding: 20px 100px 20px 100px;
+    color: gray;
+}
+
+.text1 {
+    text-align: center;
+}
+
+.video {
+    width: 50%;
+    text-align: center;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+.gray {
+    background-color: #E3E3E3;
+}
+
+.email {
+    padding: 7px;
+    width: 200px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid lightgray;
+    
+}
+input[type="button"] {
+    padding: 7px;
+    width: 70px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #2ECC71;
+    background-color: #2ECC71;
+    color: white;
+}
+
+fieldset {
+    width: 40%;
+    margin: 50px auto;
+    padding: 2px;
+    text-align: center;
+    border: 1px solid lightgray;
+}
+legend {
+    color: gray;
+    text-align: left;
+    
+    
+}
+input[type="text"], .email2, textarea {
+    padding: 7px;
+    width: 250px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid lightgray;
+    margin: 5px 2px;
+}
+textarea {
+    width: 505px;
+    height: 200px;
+}
+input[type="submit"] {
+    padding: 7px;
+    width: 505px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #2ECC71;
+    background-color: #2ECC71;
+    color: white;
+    margin: 5px 2px 10px 2px;
+}
+
+form {
+    height: 400px;
+    vertical-align: middle;
+   
+}
